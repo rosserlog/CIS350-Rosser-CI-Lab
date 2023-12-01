@@ -14,4 +14,10 @@ def test_calc_multiply():
 def test_calc_divide():
  output = divide_numbers(10,2)
  assert output == 5
+def test_squared():
+ output = squared_number(4)
+ assert output == 16
+def test_squareRoot():
+ output = squareRoot_number(16)
+ assert output == 4
 
